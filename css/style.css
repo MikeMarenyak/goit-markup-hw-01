@@ -1,0 +1,86 @@
+:root{
+--primary-text-color: #212121;
+--title-text-color: #FFFFFF;
+--title-bg-color: #F5F5F5;
+--accent-color: #2196F3;
+}
+
+/* Index html*/
+body{
+    color: var(--primary-text-color);
+    background-color: #F5F5F5;
+    
+}
+.logo{
+    color: #000000;
+}
+
+.color-name {
+    color: var(--accent-color);
+}
+.page-header {
+   background-color: #ECECEC;
+}
+/* Герой */
+.hero-color {
+    background-color: #2F303A;
+}
+.hero-color-text{
+    color: var(--title-text-color);
+}
+/* точки */
+ul{
+    list-style: none;
+}
+/* site nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.section-title {
+    color: var(--primary-text-color);
+}
+/* Контакти */
+.contacts-tel {
+    color: var(--primary-text-color);
+}
+.contacts-up .contacts-mail{
+    color: var(--accent-color);
+}
+.contacts-down .mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-down .tell {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* feature-list */
+.feature-list, .title{
+    color: var(--primary-text-color);
+}
+/* Усі найменування */
+.working-prog {
+    color: var(--primary-text-color);
+}
+/* приклади робіт */
+/* .work-list, . title{
+
+} */
+/* button */
+.button{
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+    
+}
+.working-prog {
+ color: var(--primary-text-color);
+ background-color: #F5F4FA;
+
+}  
+
+/* Portfolio html */
